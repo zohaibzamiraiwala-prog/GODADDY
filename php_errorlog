@@ -1,0 +1,6 @@
+[20-Aug-2025 12:01:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbblb1kucgg4te`.`domains`, CONSTRAINT `domains_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa161.millioncoders.net/public_html/GODADDY/results.php:32
+Stack trace:
+#0 /home/customer/www/rsoa161.millioncoders.net/public_html/GODADDY/results.php(32): mysqli->query('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/customer/www/rsoa161.millioncoders.net/public_html/GODADDY/results.php on line 32
+ 
